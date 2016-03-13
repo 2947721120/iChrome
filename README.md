@@ -1,9 +1,9 @@
 # iChrome
 [![Build Status](https://api.travis-ci.org/AMKohn/iChrome.svg)](https://travis-ci.org/AMKohn/iChrome) [![Codacy Badge](https://api.codacy.com/project/badge/grade/971d2d380b1143a89c9416af32721f17)](https://www.codacy.com/app/AMKohn/iChrome) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/ichrome/localized.png)](https://crowdin.com/project/ichrome) [![devDependency Status](https://david-dm.org/AMKohn/iChrome/dev-status.svg?style=flat)](https://david-dm.org/AMKohn/iChrome#info=devDependencies) [![twitter](http://img.shields.io/badge/twitter-@iChromeHQ-blue.svg?style=flat)](http://twitter.com/iChromeHQ)
 
-iChrome is a highly customizable, iGoogle homepage replacement extension influenced by Google Now. It includes almost 100 HD themes, over 30 widgets, support for multiple tabs, "OK Google" hotword detection and voice search, internationalization support and almost complete customization.
+iChrome是一个高度可定制的，iGoogle主页更换扩展由谷歌现在的影响。它包括近100 HD主题，30多个小部件，多标签支持，“OK谷歌”启动指令检测和语音搜索，国际化支持，几乎完全自定义。.
 
-This is the full source for iChrome except for API secrets which have been replaced with placeholders.
+这是完整的源ichrome除了API的秘密已被替换占位符。
 
 ## Jump to Section
 
@@ -13,15 +13,15 @@ This is the full source for iChrome except for API secrets which have been repla
 * [Style Guide](#style-guide)
 * [License](#license)
 
-## Setup
+## 安装程序
 [[Back To Top]](#jump-to-section)
 
-Follow these steps to run iChrome in Google Chrome as a developer.
+按照这些步骤来运行ichrome谷歌浏览器作为开发商。
 
-- Open the url chrome://extensions/ in Google Chrome.
-- Click to enable *Developer mode* so that you see developer options.
-- Click the "Load unpackaged extensions..."
-- Browse to the location where iChrome repo is installed, and select the sub-directory `iChrome/app` as the extension source.
+- 打开URL chrome://extensions/ 在谷歌或360极速浏览器.
+- 单击以启用 *Developer mode* 让你看到开发者选项。
+- 点击 "加载已解压的扩展程序..."
+- 浏览到该位置ichrome回购安装，并选择子目录 `iChrome/app` as the扩展源.
 
 > If you already have iChrome installed from the Google Play store, then remove the extension before doing the above.
 
@@ -34,17 +34,17 @@ Follow these steps to run iChrome in Google Chrome as a developer.
 
 ### V2.2
 
-These are very much in flux, any of them could be postponed or skipped.
+这些都是在不断变化非常多，其中任何一个可以推迟或跳过。
 
 ##### iChrome Pro:
 
-   - Prioritized support and suggestions
-   - 2 fully synced themes per tab.
-   - The ability to create dynamic custom themes (video, slide-shows, time and date dependent) that are hosted on iChrome servers
-   - 30 online backups
-   - "Parental" controls with the ability to blacklist widgets and lock configurations remotely
-   - Possibly maximizable widgets
-   - Various widget features including real-time stocks with charts, real-time analytics, more accurate weather, etc.
+   - 优先级的支持和建议
+   - 2完全同步每个标签的主题。
+   - 要创建在iChrome服务器上托管的动态自定义主题（视频，幻灯片显示，时间和日期而定）的能力
+   - 30 在线备份
+   - “上级”与远程黑名单部件和锁配置的能力控制
+   - 可能最大化部件
+   - 各个部件的功能，包括使用图表实时库存，实时分析，更准确的天气等等。
 
 ## Contributing
 [[Back To Top]](#jump-to-section)

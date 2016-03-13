@@ -23,14 +23,14 @@ iChrome是一个高度可定制的，iGoogle主页更换扩展由谷歌现在的
 - 点击 "加载已解压的扩展程序..."
 - 浏览到该位置ichrome回购安装，并选择子目录 `iChrome/app` as the扩展源.
 
-> If you already have iChrome installed from the Google Play store, then remove the extension before doing the above.
+> 如果您已经从谷歌Play商店安装iChrome，然后做以上之前删除扩展.
 
-## Road Map
+## 路线图
 [[Back To Top]](#jump-to-section)
 
 #### V2.x
 
- - A real website
+ - 一个真实的网站
 
 ### V2.2
 
@@ -46,24 +46,25 @@ iChrome是一个高度可定制的，iGoogle主页更换扩展由谷歌现在的
    - 可能最大化部件
    - 各个部件的功能，包括使用图表实时库存，实时分析，更准确的天气等等。
 
-## Contributing
+## 贡献
 [[Back To Top]](#jump-to-section)
 
-If you'd like to contribute, please fork the repo and submit a pull request.
+如果你愿意捐款，请用叉子叉正回购，并提交一份请求。
 
-## Style Guide
+## 样式指南
 [[Back To Top]](#jump-to-section)
 
- - Code is indented with 4 space tabs, never spaces
- - Double quotes are always used unless the string contains double quotes, such as with HTML
- - Trailing semicolons are always used
- - When multiple variables are being defined at the top of a function they should generally be combined into one `var` statement
- - Ternary operators are fine especially for string concatenation
- - Performance should always be favored over readability for small snippets. i.e. `$(body).append($('<div></div>').attr("data-id", id.split("-")[1]))` instead of `var elm = $('<div></div>'), id = id.split("-")[1]; elm.attr("data-id", id)....`
+ - 代码缩进4空间的标签，没有空间
+ - 双引号总是除非字符串包含双引号的使用，如HTML
+ - 尾分号总是
+ - 当多个变量被定义为一个函数的顶部时，它们通常被合并为一个无功的语句
+ - 三元运算符很好尤其是字符串连接
+ - 性能要优于小片段的可读性。即
+ - `$(body).append($('<div></div>').attr("data-id", id.split("-")[1]))` instead of `var elm = $('<div></div>'), id = id.split("-")[1]; elm.attr("data-id", id)....`
 
 ## License
 [[Back To Top]](#jump-to-section)
 
-iChrome is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
+ichrome授权下 [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
 
-Basically, feel free to use the code however you want as long as you give credit. And, if you don't mind please let me know.
+基本上，只要你给信用证，你只要你想要的代码可以自由使用。如果你不介意的话，请告诉我。

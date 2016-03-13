@@ -48,10 +48,10 @@ module.exports = function(grunt) {
 						message: i
 					},
 					extDescription: {
-						message: e.extDescription
+						message: e.newtabDescription
 					},
 					extName: {
-						message: e.extName
+						message: e.newtabName
 					},
 					themes_upload_image: {
 						message: e.themes.upload_image

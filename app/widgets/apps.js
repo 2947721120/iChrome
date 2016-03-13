@@ -61,7 +61,7 @@ define(["jquery", "lodash", "browser/api"], function($, _, Browser) {
 			sort: "id",
 			show: "all",
 			view: "list",
-			target: "_blank",
+			target: "_self",
 			size: "variable"
 		},
 

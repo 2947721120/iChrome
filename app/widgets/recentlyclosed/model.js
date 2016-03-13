@@ -3,7 +3,7 @@ define(["jquery", "lodash", "browser/api", "widgets/model"], function($, _, Brow
 		defaults: {
 			config: {
 				tabs: 5,
-				target: "_self",
+				target: "_blank",
 				size: "variable",
 				title: "i18n.name"
 			},

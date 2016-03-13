@@ -51,7 +51,7 @@ define(["i18n/i18n"], function(Translate) {
 
 		// Settings. Check deprecate.js when adding or removing any settings
 		settings: {
-			openLinksInNewTab: false,
+			openLinksInNewTab: true,
 
 			links: [],
 			ok: false,

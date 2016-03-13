@@ -43,7 +43,7 @@ else if (!localStorage.version || localStorage.version !== chrome.runtime.getMan
 	if (localStorage.syncData) {
 		// Clear old sync system data
 		chrome.cookies.remove({
-			name: "sync_data",
+			name: "sync_data_main",
 			url: "http://ichro.me"
 		});
 
@@ -58,6 +58,18 @@ if (localStorage.length && (!localStorage.version || localStorage.version.indexO
 
 localStorage.version = chrome.runtime.getManifest().version;
 
+
+chrome.webRequest.onBeforeRequest.addListener(
+	function() {
+		return {
+			redirectUrl: "chrome-extension://" + chrome.i18n.getMessage("@@extension_id") + "/index.html"
+		};
+	},
+	{
+		urls: ["http://ichro.me/redirect"]
+	},
+	["blocking"]
+);
 
 /**
  * Feed refresh manager

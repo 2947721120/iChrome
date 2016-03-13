@@ -24,8 +24,7 @@ module.exports = function(grunt) {
 					desc = "";
 
 				_.each(locale, function(e, i) {
-					// Line 1 and the link are duplicated for new tab as newtab_line_1 and newtab_link
-					if (["lang_code", "line_1", "link"].indexOf(i) === -1 && typeof e === "string") {
+					if (i !== "lang_code" && i.indexOf("newtab") === -1 && typeof e === "string") {
 						desc += e + "\n\n";
 					}
 					else if (Array.isArray(e)) {

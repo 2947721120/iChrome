@@ -83,7 +83,7 @@ define(["lodash", "jquery", "moment"], function(_, $, moment) {
 			title: "i18n.name",
 			size: "variable",
 			view: "large_2",
-			target: "_self",
+			target: "_blank",
 			user: ""
 		},
 		data: {
